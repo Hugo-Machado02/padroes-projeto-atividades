@@ -3,4 +3,4 @@ Atividades referentes a matéria de Padrões de Projetos do Curso de Sistemas Pa
 
 
 #  📚 Atividades 📚
-- 🔵 1º Atividade - Aula 4: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/1º-Atividade-Aula-2).
+- 1º Atividade - Aula 4: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/1º-Atividade-Aula-2).
