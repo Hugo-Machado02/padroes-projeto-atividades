@@ -6,7 +6,7 @@ O erro encotrado se trata-se do seguinte:
 - Se, depois de um tempo, precisarmos mudar o método de notificação de e-mail para SMS, ou qualquer outro, teremos que modificar a classe Notificador.
 - Isso viola o princípio, pois a classe de alto nível não deveria serrado por uma mudança em um detalhe de baixo nível
 
-- ## Forma Correta
+## Forma Correta
 Alterações realizadas para não ferir a Responsabilidade Unica:
 - Criamos então uma interface Mensageiro que define o contrato para qualquer serviço que possa "enviar" uma mensagem.
 - Esta é a abstração que ambas as Classes, de alto e baixo nível, irão depender;

@@ -6,7 +6,7 @@ O erro encotrado se trata-se do seguinte:
 - ao implementar dessa interface, as classes também, acabam implementando todos os seus métodos, mesmo que não o utilize;
 - Seguinto o Princípio Aberto-Fechado, a aplicação não deve implementar métodos que não necessita.
 
-- ## Forma Correta
+## Forma Correta
 Alterações realizadas para não ferir a Segregação de Interfaces:
 - Criamos 3 interfaces, sendo que cada uma possui sua finalizade específica;
 - com isso, agora as classes podem implementar apenas aqueles métodos que necessitam.
