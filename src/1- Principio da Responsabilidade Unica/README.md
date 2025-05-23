@@ -11,5 +11,7 @@ Alterações realizadas para não ferir a Responsabilidade Unica:
 - O calculaDesconto então, foi colocado em uma classe só para essa determinada responsabilidade
 
 #  :bulb: UML - Forma errada :bulb:
+![2º Atividade - Aula 3 - 1 1 - Erro](https://github.com/user-attachments/assets/7dffca6c-e3f0-48c8-b74b-e6816b9a6713)
 
 #  :bulb: UML - Forma Correta :bulb:
+![2º Atividade - Aula 3 - 1 2 - Correto](https://github.com/user-attachments/assets/b0d0124e-9411-4d3b-90ba-0c53444e8d7f)
