@@ -12,5 +12,7 @@ Alterações realizadas para não ferir o princípio da Substituição de Liskov
 - Quadrado também implementa Forma, mas gerencia apenas seu lado. Não possui setters para largura e altura que poderiam levar a um comportamento inconsistente se fosse um subtipo de Retangulo.
 
 #  :bulb: UML - Forma errada :bulb:
+![2º Atividade - Aula 3 - 3 1 - Errado](https://github.com/user-attachments/assets/d20e19dd-b515-4ae4-b1e7-3d78c9c55557)
 
 #  :bulb: UML - Forma Correta :bulb:
+![2º Atividade - Aula 3 - 3 2 - Correto](https://github.com/user-attachments/assets/27f43564-5a1c-400b-b46d-d0b7ec2c1341)
