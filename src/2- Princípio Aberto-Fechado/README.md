@@ -6,7 +6,7 @@ O erro encotrado se trata-se do seguinte:
 - Seguinto o Princípio Aberto-Fechado, a aplicação não deve receber alteracões em códigos prontos assim.
 
 - ## Forma Correta
-Alterações realizadas para não ferir a Responsabilidade Unica:
+Alterações realizadas para não ferir o principio Aberto-Fechado:
 - Criamos então uma classe abstrata, que conterá os métodos essenciais para todas as outras classes;
 - conforme forem adicionando novos tipos de contas, basta herdar da classe Conta (abstrata).
 

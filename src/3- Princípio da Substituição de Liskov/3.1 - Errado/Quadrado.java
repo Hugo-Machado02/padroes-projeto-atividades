@@ -1,4 +1,4 @@
-public class Quadrado extends FormaErrada {
+public class Quadrado extends Triangulo {
     public Quadrado(int lado) {
         super(lado, lado);
     }
