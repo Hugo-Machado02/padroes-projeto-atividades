@@ -15,5 +15,7 @@ Alterações realizadas para não ferir a Responsabilidade Unica:
 - Com isso o Notificador depende da abstração, e não de um detalhe concreto.
 
 #  :bulb: UML - Forma errada :bulb:
+![2º Atividade - Aula 3 - 5 1 - Errado](https://github.com/user-attachments/assets/6ce2fd60-2e2a-46d3-ab4e-5ed21b37d5ea)
 
 #  :bulb: UML - Forma Correta :bulb:
+![2º Atividade - Aula 3 - 5 2 - Correto](https://github.com/user-attachments/assets/3f631e06-9554-461d-a67f-9f26bc6bc709)
