@@ -13,7 +13,7 @@ public class AtividadeSingleton{
         System.out.print("Digite a Senha: ");
         String senha = scan.nextLine();
 
-        Boolean validaAutenticacao = login.autenticacao(usuario, senha);
+        Boolean validaAutenticacao = login.autenticacao(usuario, senha, scan);
         
         if (validaAutenticacao) {
             System.out.println("Login realizado com sucesso!");

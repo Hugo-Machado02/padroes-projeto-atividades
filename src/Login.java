@@ -14,9 +14,7 @@ public class Login {
         return instancia;
     }
 
-    public boolean autenticacao(String usuario, String senha) {
-        Scanner scan = new Scanner(System.in);
-
+    public boolean autenticacao(String usuario, String senha, Scanner scan) {
         if (this.usuario == null || this.senha == null) {
             this.usuario = usuario;
             this.senha = senha;
