@@ -6,5 +6,4 @@ Atividade Referente a Aula 8 de Padrões de Projetos
 
 
 #  :bulb: UML do Código :bulb:
-![7º Atividade - Aula 8](https://github.com/user-attachments/assets/920a266e-1766-459b-8171-f1481856de2f)
-
+![7º Atividade - Aula 8](https://github.com/user-attachments/assets/0c2f1d01-b2b4-46f3-a362-43ce516033f3)
