@@ -29,7 +29,7 @@ public class AtividadePrototype {
                     System.out.printf("Digite o número referente ao Violão Desejado: ");
                     int chavePrototype = scan.nextInt();
 
-                    if(chavePrototype <= violaoPrototipos.size()){
+                    if(chavePrototype <= violaoPrototipos.size() && chavePrototype > 0){
                         if(fabricaViolao.fabricarViolao(chavePrototype)){
                             System.out.println("\n\n==> Violão Fabricado: " + violaoPrototipos.get(chavePrototype).getTipo());
                             System.out.println("==> Descricao: " + violaoPrototipos.get(chavePrototype).getDescricao());
@@ -37,7 +37,7 @@ public class AtividadePrototype {
                             System.out.println("\n\n==> Violão não Fabricado");
                         }
                     }else{
-                        System.out.println("\n\n==> O Violão não está na Lista!");
+                        System.out.println("\n\n==> Opção inválida!");
                     }
 
                     System.out.println("==============================================================\n\n");
@@ -47,13 +47,11 @@ public class AtividadePrototype {
                     ArrayList<ViolaoPrototype> violoresFabricados = fabricaViolao.getVioloesFabricados();
                     System.out.println("===================== Violões Fabricados =====================");
                     if(violoresFabricados.size() > 0){
-                        int contagemFabricacao = 0;
                         for(ViolaoPrototype violao : violoresFabricados){
                             System.out.println(violao.getTipo());
-                            contagemFabricacao++;
                         }
 
-                        System.out.println("\nTotal Fabricados: " + contagemFabricacao);
+                        System.out.println("\nTotal Fabricados: " + fabricaViolao.getQtdFabricados());
                     }
                     else{
                     }
