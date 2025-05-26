@@ -1,7 +1,10 @@
-# 🚀 Padrões de Projeto - 5º Período - TSI🚀
-Atividades referentes a matéria de Padrões de Projetos do Curso de Sistemas Para internet (TSI) - 5º Período
+# 🚀 5º Atividade - Aula 6 🚀
+Atividade Referente a Aula 6 de Padrões de Projetos
+
+- [clique aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/5º-Atividade-Aula-6/src) para poder ir ao repositório da atividade referente a aula 6!
+- [clique aqui](https://drive.google.com/drive/folders/1ySY1f-ki5OhkeKuIESnMmLhRjXul7vX_?usp=sharing) para poder ir até o vídeo com a explicacão!
 
 
-#  📚 Atividades 📚
-- 1º Atividade - Aula 2: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/1º-Atividade-Aula-2).
-- 2º Atividade - Aula 3: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/2º-Atividade-Aula-3).
+#  :bulb: UML do Código :bulb:
+![5º Atividade - Aula 6](https://github.com/user-attachments/assets/ffa9aabf-4ca9-4682-bfd9-07eaee1b031d)
+
