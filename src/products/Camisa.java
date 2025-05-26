@@ -1,10 +1,10 @@
 package products;
 
-public abstract class Camiseta {
+public abstract class Camisa {
     private String fabrica;
     private String time;
 
-    public Camiseta(String fabrica, String time) {
+    public Camisa(String fabrica, String time) {
         this.fabrica = fabrica;
         this.time = time;
     }

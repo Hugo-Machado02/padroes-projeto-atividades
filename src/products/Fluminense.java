@@ -1,6 +1,6 @@
 package products;
 
-public class Fluminense extends Camiseta implements CamisaProduct{
+public class Fluminense extends Camisa implements CamisaProduct{
 
     public Fluminense() {
         super("Umbro", "Fluminense");

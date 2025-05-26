@@ -1,6 +1,6 @@
 package products;
 
-public class Brasil extends Camiseta implements CamisaProduct{
+public class Brasil extends Camisa implements CamisaProduct{
 
     public Brasil() {
         super("Nike", "Brasil");

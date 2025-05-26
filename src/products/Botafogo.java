@@ -1,6 +1,6 @@
 package products;
 
-public class Botafogo extends Camiseta implements CamisaProduct{
+public class Botafogo extends Camisa implements CamisaProduct{
 
     public Botafogo() {
         super("Puma", "Botafogo");
