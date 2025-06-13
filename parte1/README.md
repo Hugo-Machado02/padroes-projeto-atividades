@@ -1,4 +1,2 @@
 # 🚀 Atividade - Parte 1 🚀
-
-#  :bulb: UML - Parte 1 :bulb:
-![6º Atividade - Aula 3 - Parte 1 1](https://github.com/user-attachments/assets/28273008-80d3-4fc6-ac4a-f5f06e310e4c)
+![6º Atividade - Aula 7 - Parte 1 1](https://github.com/user-attachments/assets/5f876f7d-953b-4a49-9ed2-d28783aba776)
