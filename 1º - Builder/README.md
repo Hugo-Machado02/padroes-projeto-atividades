@@ -1,4 +1,4 @@
-# 🚀 Parte 1 - Builder🚀
+# 🚀 Parte 1 - Builder 🚀
 
 O padrão Builder pertence à categoria dos padrões criacionais e tem como principal objetivo facilitar a construção de objetos complexos. Ele permite criar um objeto passo a passo, separando o processo de construção da representação final. Esse padrão evita o uso de construtores com muitos parâmetros (conhecidos como "construtores telescópicos"), tornando o código mais claro, organizado e fácil de manter.
 
@@ -11,5 +11,5 @@ A estrutura do padrão envolve três elementos principais:
 
 O Padrão Builder pode torna o código mais flexível, organizado e reutilizável, pois separa o processo de construção da lógica de negócio. Em contrapartida, pode aumentar a complexidade do sistema, devido à necessidade de criar múltiplas classes auxiliares.
 
-#  :bulb: UML - Forma errada :bulb:
+#  :bulb: UML - Builder :bulb:
 ![1º - Builder - Trabalho Final](https://github.com/user-attachments/assets/ce50dd68-3ba1-4827-bf78-62a5af29c65c)
