@@ -1,4 +1,4 @@
-# 🚀 Parte 1 - Strategy 🚀
+# 🚀 Parte 3 - Strategy 🚀
 
 O padrão Strategy é um padrão comportamental que permite definir uma família de algoritmos, encapsulá-los em classes separadas e torná-los intercambiáveis dentro de um mesmo contexto. Isso permite que o comportamento de um objeto possa ser alterado em tempo de execução, sem necessidade de modificar sua estrutura interna.
 
