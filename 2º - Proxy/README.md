@@ -1,15 +1,10 @@
-# 🚀 Padrões de Projeto - 5º Período - TSI🚀
-Atividades referentes a matéria de Padrões de Projetos do Curso de Sistemas Para internet (TSI) - 5º Período
+# 🚀 Parte 1 - Proxy 🚀
 
+O padrão Proxy é um padrão estrutural que oferece um substituto ou representante para outro objeto com o objetivo de controlar o acesso a ele. Esse controle pode incluir inicialização preguiçosa (lazy loading), controle de permissões, cache de resultados ou registro de operações, sem que o cliente perceba qualquer diferença no uso do objeto.
 
-#  📚 Atividades 📚
-- 1º Atividade - Aula 2: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/1º-Atividade-Aula-2).
-- 2º Atividade - Aula 3: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/2º-Atividade-Aula-3).
-- 3º Atividade - Aula 4: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/3º-Atividade-Aula-4).
-- 4º Atividade - Aula 5: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/4º-Atividade-Aula-5).
-- 5º Atividade - Aula 6: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/5º-Atividade-Aula-6).
-- 6º Atividade - Aula 7: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/6º-Atividade-Aula-7).
-- 7º Atividade - Aula 8: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/7º-Atividade-Aula-8).
-- 8º Atividade - Aula 9: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/8º-Atividade-Aula-9).
-- 9º Atividade - Aula 10: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/9º-Atividade-Aula-10).
-- 10º Atividade - Aula 11: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/10º-Atividade-Aula-11)
+O Proxy implementa a mesma interface do objeto real, sendo transparente para o cliente, que não precisa saber se está interagindo com o objeto real ou com o proxy. Ele decide quando criar ou delegar o trabalho ao objeto real. Um exemplo prático é o cartão de crédito, que funciona como um proxy do dinheiro no banco: permite fazer compras sem carregar o dinheiro físico, mas cumpre a mesma função.
+
+O Padrão Proxy permite incluir funcionalidades extras como controle de acesso, cache de resultados ou registro de operações, sem precisar modificar o código do objeto real. Porém, o uso desse padrão pode deixar o sistema mais complexo e, dependendo da situação, gerar pequenos atrasos na resposta do serviço real..
+
+#  :bulb: UML - Proxy :bulb:
+![2º - Proxy - Trabalho Final](https://github.com/user-attachments/assets/c267a969-53ee-47fe-9752-4bd2efc1a8c6)
