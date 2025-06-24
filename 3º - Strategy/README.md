@@ -9,4 +9,4 @@ A estrutura do padrão envolve a Interface Strategy que é comum a todas as estr
 O Padrão Strategy pode proporcionar flexibilidade e facilitar a adição de novas variações de comportamento sem impactar o código existente. Entretanto, pode aumentar o número de classes no sistema e exigir que o cliente conheça bem as estratégias disponíveis para selecionar a mais apropriada.
 
 #  :bulb: UML - Strategy :bulb:
-![3º - Strategy - Trabalho Final](https://github.com/user-attachments/assets/65ef3e2b-5f27-49b5-9819-d83e400cb705)
+![3º - Strategy - Trabalho Final](https://github.com/user-attachments/assets/6c5446d4-b96a-4573-8bc4-cf416050fd37)
