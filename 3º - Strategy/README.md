@@ -1,15 +1,12 @@
-# 🚀 Padrões de Projeto - 5º Período - TSI🚀
-Atividades referentes a matéria de Padrões de Projetos do Curso de Sistemas Para internet (TSI) - 5º Período
+# 🚀 Parte 1 - Strategy 🚀
 
+O padrão Strategy é um padrão comportamental que permite definir uma família de algoritmos, encapsulá-los em classes separadas e torná-los intercambiáveis dentro de um mesmo contexto. Isso permite que o comportamento de um objeto possa ser alterado em tempo de execução, sem necessidade de modificar sua estrutura interna.
 
-#  📚 Atividades 📚
-- 1º Atividade - Aula 2: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/1º-Atividade-Aula-2).
-- 2º Atividade - Aula 3: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/2º-Atividade-Aula-3).
-- 3º Atividade - Aula 4: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/3º-Atividade-Aula-4).
-- 4º Atividade - Aula 5: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/4º-Atividade-Aula-5).
-- 5º Atividade - Aula 6: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/5º-Atividade-Aula-6).
-- 6º Atividade - Aula 7: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/6º-Atividade-Aula-7).
-- 7º Atividade - Aula 8: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/7º-Atividade-Aula-8).
-- 8º Atividade - Aula 9: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/8º-Atividade-Aula-9).
-- 9º Atividade - Aula 10: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/9º-Atividade-Aula-10).
-- 10º Atividade - Aula 11: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/10º-Atividade-Aula-11)
+Esse padrão é ideal quando existe a necessidade de alternar entre diferentes formas de executar uma tarefa. Por exemplo, em um aplicativo de navegação, podem existir estratégias diferentes de cálculo de rotas: a pé, de carro, de bicicleta ou transporte público. Cada uma dessas formas é representada por uma estratégia específica, enquanto a classe principal (chamada Contexto) apenas delega a execução para a estratégia escolhida, sem saber os detalhes de sua implementação.
+
+A estrutura do padrão envolve a Interface Strategy que é comum a todas as estratégias e define o método que será utilizado, as Concrete Strategies que fazem as implementações específicas dos algoritmos e o contexto que mantém a referência para uma estratégia e a utiliza para realizar a tarefa desejada.
+
+O Padrão Strategy pode proporcionar flexibilidade e facilitar a adição de novas variações de comportamento sem impactar o código existente. Entretanto, pode aumentar o número de classes no sistema e exigir que o cliente conheça bem as estratégias disponíveis para selecionar a mais apropriada.
+
+#  :bulb: UML - Strategy :bulb:
+![3º - Strategy - Trabalho Final](https://github.com/user-attachments/assets/65ef3e2b-5f27-49b5-9819-d83e400cb705)
