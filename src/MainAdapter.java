@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class MainAdapter {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        OldVehicleStorage oldVehicleStorage = new OldVehicleStorage();
-        VehicleStorageAdapter adapterStorage = new VehicleStorageAdapter(oldVehicleStorage);
+        VehicleStorageAdapter adapterStorage = new VehicleStorageAdapter();
 
         int op = 0;
 

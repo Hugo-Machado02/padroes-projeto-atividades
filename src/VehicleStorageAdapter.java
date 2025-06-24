@@ -1,8 +1,8 @@
 public class VehicleStorageAdapter implements IVehicleStorage{
     private OldVehicleStorage oldVehicleStorage;
 
-    public VehicleStorageAdapter(OldVehicleStorage oldVehicleStorage) {
-        this.oldVehicleStorage = oldVehicleStorage;
+    public VehicleStorageAdapter() {
+        this.oldVehicleStorage = new OldVehicleStorage();;
     }
 
     @Override
