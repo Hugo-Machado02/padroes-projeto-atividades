@@ -1,4 +1,4 @@
-# 🚀 Parte 1 - Proxy 🚀
+# 🚀 Parte 2 - Proxy 🚀
 
 O padrão Proxy é um padrão estrutural que oferece um substituto ou representante para outro objeto com o objetivo de controlar o acesso a ele. Esse controle pode incluir inicialização preguiçosa (lazy loading), controle de permissões, cache de resultados ou registro de operações, sem que o cliente perceba qualquer diferença no uso do objeto.
 
