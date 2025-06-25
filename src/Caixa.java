@@ -47,37 +47,17 @@ public class Caixa implements ItemComponent{
 
     private void preencherCaixa(){
         List<Map.Entry<String, Double>> listaItens = new ArrayList<>(catalogo.entrySet());
-
-        System.out.println("Limite: " + this.limite);
-
         for(int i=0; i < this.limite; i++){
             Random random = new Random();
             int index = random.nextInt(listaItens.size());
 
             Map.Entry<String, Double> item = listaItens.get(index);
             addItemSelecionado(new ItemFolha(item.getKey(), item.getValue()));
-            System.out.println("Adicionando elemento - "+ item.getKey()); 
         }  
     }
 
     public String getNome(){
-        return "Caixa de Assinatura - Nivel " + nivel;
-    }
-    
-    public HashMap<String, Double> getCatalogo(){
-        return catalogo;
-    }
-
-    private void addCatalogo(String nome, double valor) {
-        this.catalogo.put(nome, valor);
-    }
-
-    public ArrayList<ItemComponent> getItensSelecionados() {
-        return itensSelecionados;
-    }
-
-    private void addItemSelecionado(ItemComponent item){
-        this.itensSelecionados.add(item);
+        return "Caixa de Assinatura: Nivel " + nivel;
     }
 
     public double getValor(){
@@ -87,17 +67,35 @@ public class Caixa implements ItemComponent{
         }
         return valorTotal;
     }
+    
+    public HashMap<String, Double> getCatalogo(){
+        return catalogo;
+    }
+    
+    public ArrayList<ItemComponent> getItensSelecionados() {
+        return itensSelecionados;
+    }
+
+    private void addCatalogo(String nome, double valor) {
+        this.catalogo.put(nome, valor);
+    }
+
+    private void addItemSelecionado(ItemComponent item){
+        this.itensSelecionados.add(item);
+    }
+
     public void exibirDetalhes(){
-        System.out.println("\n\n=================================================");
-        System.out.println("====>" + this.getNome());
-        System.out.println("=================================================");
+        System.out.println("===========================================================");
+        System.out.println("==> " + this.getNome() + " - " + this.limite + " Itens");
+        System.out.println("===========================================================");
 
         for(ItemComponent item: getItensSelecionados()){
             System.out.println("Item: "+ item.getNome());
             System.out.println("Valor: "+ item.getValor());
-            System.out.println("-------------------------------------------------");
+            System.out.println("-----------------------------------------------------------");
+
         }
         System.out.println("Valor Total: "+ this.getValor());
-        System.out.println("=================================================\n\n");
+        System.out.println("===========================================================\n\n");
     }
 }
