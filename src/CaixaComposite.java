@@ -19,7 +19,7 @@ public class CaixaComposite implements ItemComponent{
         preencherCaixa();
     }
 
-    public int instanciaLimite(){
+    private int instanciaLimite(){
         if(this.nivel.equals("Platina")){
             return 10;
         }
