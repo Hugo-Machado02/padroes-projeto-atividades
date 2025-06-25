@@ -43,7 +43,7 @@ public class MainComposite {
     }
 
     public static void instanciaCaixa(String tipoCliente){
-        ItemComponent caixa = new Caixa(tipoCliente);
+        ItemComponent caixa = new CaixaComposite(tipoCliente);
         caixa.exibirDetalhes();
     }
 }

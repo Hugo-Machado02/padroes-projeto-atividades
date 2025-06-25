@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class Caixa implements ItemComponent{
+public class CaixaComposite implements ItemComponent{
     private String nivel;
     private int limite;
     private HashMap<String, Double> catalogo;
     private ArrayList<ItemComponent> itensSelecionados;
 
-    public Caixa(String nivel){
+    public CaixaComposite(String nivel){
         this.nivel = nivel;
         this.limite = instanciaLimite();
         this.catalogo = new HashMap<>();
