@@ -14,7 +14,7 @@ Atividades referentes a matéria de Padrões de Projetos do Curso de Sistemas Pa
 - 9º Atividade - Aula 10: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/9º-Atividade-Aula-10).
 - 10º Atividade - Aula 11: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/10º-Atividade-Aula-11).
 - 11º Atividade - Aula 12: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/11º-Atividade-Aula-12).
-- 12º Atividade - Aula 12: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/12º-Atividade-Aula-12).
-- 13º Atividade - Aula 13: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/13º-Atividade-Aula-13).
+- 12º Atividade - Aula 12: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/11º-Atividade-Aula-12).
+- 13º Atividade - Aula 13: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/11º-Atividade-Aula-12).
 - 14º Atividade - Aula 14: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/14º-Atividade-Aula-14).
 - Trabalho Final: [Clique Aqui](https://github.com/Hugo-Machado02/padroes-projeto-atividades/tree/Trabalho-Final).
