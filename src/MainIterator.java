@@ -1,18 +1,43 @@
+import java.util.Scanner;
+
 public class MainIterator {
 
     public static void main(String[] args) {
-        GameCollection collection = new GameCollection();
+        Scanner scan = new Scanner(System.in);
+        ListGames collection = new ListGames();
+        GameIterator iterator = collection.criaIterator();
+        int op = 0;
 
-        collection.addGame(new Game("God of War"));
-        collection.addGame(new Game("The Last of Us"));
-        collection.addGame(new Game("Spider-Man: Miles Morales"));
+        do{
+            System.out.println("========================== Menu ==========================");
+            System.out.println("Deseja Cadastrar um novo jogo? (Sim: 1 | Nao: 2)");
+            System.out.printf("Selecione a Opcao Desejada: ");
+            op = scan.nextInt();
+            System.out.println("==========================================================\n\n");
+            scan.nextLine();
 
-        GameIterator iterator = collection.iterator();
-
-        System.out.println("Jogos na coleção:");
-        while (iterator.temProximo()) {
-            Game game = iterator.next();
-            System.out.println("- " + game.getNome());
-        }
+            switch (op) {
+                case 1:
+                    System.out.println("==================== Cadastro de Games ===================");
+                    System.out.printf("Digite o nome do jogo: ");
+                    String nome = scan.nextLine();
+                    System.out.println("==========================================================\n\n");
+                    collection.addGame(new Game(nome));
+                    break;
+                case 2:
+                    System.out.println("========================== Games =========================");
+                    while (iterator.temProximo()) {
+                        Game game = iterator.proximo();
+                        System.out.println("- " + game.getNome());
+                    }
+                    System.out.println("==========================================================\n\n");
+                    break;
+            
+                default:
+                    System.out.println("Opcao invalida! Digite novamente\n\n");
+                    break;
+            }
+        }while(op != 2);
+        scan.close();
     }
 }
