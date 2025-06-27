@@ -6,7 +6,7 @@ public class Usuario implements Observer{
     }
 
     @Override
-    public void notificar(String titulo) {
-        System.out.println("-> " + nome + ", nossa Plataforma adicionou um novo conteúdo: " + titulo);
+    public void notificar(String titulo, GeneroFilme genero) {
+        System.out.println("-> " + nome + ", novo filme de " + genero + ": " + titulo);
     }
 }

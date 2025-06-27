@@ -8,19 +8,20 @@ public class MainObserver {
         Observer myckael = new Usuario("Myckael");
         Observer marcos = new Usuario("Marcos");
 
-        plataforma.addObserver(hugo);
-        plataforma.addObserver(shayra);
-        plataforma.addObserver(marcos);
+        // Inscrições por gênero
+        plataforma.addObserver(hugo, GeneroFilme.acao);
+        plataforma.addObserver(hugo, GeneroFilme.ficcao_cientifica);
+        plataforma.addObserver(shayra, GeneroFilme.comedia);
+        plataforma.addObserver(marcos, GeneroFilme.acao);
+        plataforma.addObserver(joselio, GeneroFilme.terror);
+        plataforma.addObserver(myckael, GeneroFilme.acao);
 
-        plataforma.publicarConteudo("The Flash - Temporada 5");
+        plataforma.publicarConteudo("Vingadores - Ultimato", GeneroFilme.ficcao_cientifica);
+        plataforma.publicarConteudo("Star Wars: A Ascensão Skywalker", GeneroFilme.ficcao_cientifica);
+        plataforma.publicarConteudo("It - A Coisa", GeneroFilme.terror);
+        plataforma.publicarConteudo("Deadpool", GeneroFilme.comedia);
 
-        plataforma.addObserver(joselio);
-        plataforma.addObserver(myckael);
-
-        plataforma.publicarConteudo("Vingadores - Ultimato");
-
-        plataforma.removeObserver(shayra);
-
-        plataforma.publicarConteudo("Star Wars: A Asacensao Skywalker");
+        plataforma.removeObserver(shayra, GeneroFilme.comedia);
+        plataforma.publicarConteudo("Homem-Aranha", GeneroFilme.comedia);
     }
 }

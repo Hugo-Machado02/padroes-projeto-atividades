@@ -1,3 +1,3 @@
 public interface Observer {
-    void notificar(String titulo);
+    void notificar(String titulo, GeneroFilme genero);
 }
